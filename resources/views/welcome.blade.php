@@ -18,10 +18,8 @@
         @vite('resources/css/app.css')
     </head>
     <body class="antialiased">
-        <h1 class="text-3xl font-bold">
-            @livewire('hello-world')
-        </h1>
-
+        @livewire('hello-contact');
+        
         @livewireScripts
     </body>
 </html>
